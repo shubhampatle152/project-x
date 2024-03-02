@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    padding: 8% 0% 0% 1%;
+}
+
+.poster {
+    width: 40%;
+    height: 250px;
+    display: flex;
+    gap: 2px;
+
+}
+
+.poster>img {
+    width: 20%;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 7px;
+    aspect-ratio: 9/16;
+    transition: all ease-in-out 0.5s ;
+}
+
+.poster>img:hover {
+    width: 100%;
+    scale: 1.4;
+}
